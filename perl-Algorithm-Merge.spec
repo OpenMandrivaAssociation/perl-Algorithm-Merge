@@ -2,14 +2,14 @@
 %define upstream_version 0.08
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 
 Summary:	Implements 3-way merge and diff algorithms
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Algorithm/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Algorithm-Merge
+Source0:	https://cpan.metacpan.org/authors/id/J/JS/JSMITH/Algorithm-Merge-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
