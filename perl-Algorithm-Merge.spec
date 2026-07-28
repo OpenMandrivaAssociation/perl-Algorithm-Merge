@@ -1,7 +1,7 @@
 %define upstream_name    Algorithm-Merge
 Name:		perl-%{upstream_name}
 Version:	0.08
-Release:	7
+Release:	8
 
 Summary:	Implements 3-way merge and diff algorithms
 License:	GPL+ or Artistic
